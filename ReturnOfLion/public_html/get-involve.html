@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Get Involved</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <style type="text/css">
+        body {background: blueviolet;}
+        h2 {color: gold}
+        </style>
+    </head>
+    <body style="background-color:lightblue;">
+        <div style="border: solid 3px gold"><a href="index.html"> Home</a> 
+            | <a href="contact-us.html"> Contact Us </a> 
+            | <a href="about-us.html"> About US </a> 
+            | <a href="get-involve.html"> Get Involved </a> 
+            | <a href="our-work.html">  Our Work </a> 
+            | <a href="photo-gallery.html"> Photo Gallery</a>
+        </div>
+        <br>
+        <br>
+       
+        <form method="post" action="submit.php" style="border: solid 2px darkblue">
+            <label for="FirstName">Name</label>
+            <input name="FirstName" type="text" id="FirstName" /><br><br>
+            
+            <label for="Amount">Amount</label><br>
+            <textarea name="Amount" cols="20" rows="2" id="Amount">0</textarea><br><br>
+            
+            <label for=Donation>Spices(Choose Currency</label><br>
+            <select name="Donation" id="Donation">
+                <option value="">Rand</option>
+                <option value="Cumin">Dollar</option>
+                <option value="CDE">Pound</option>
+            </select><br><br>
+            
+            <label for="FirstName">How would like to make payment?</label><br>
+            
+            <input name="Pay" type="radio" value="AMEX" id="AMEX" />
+            <label for="AMEX">AMEX</label>
+            <input name="Pay" type="radio" value="VISA" id="VISA" />
+            <label for="VISA">VISA</label>
+            <input name="Pay" type="radio" value="MASTER" id="MASTER" />
+            <label for="MASTER">MASTER</label><br>
+            
+            <label for="Lodge">Which of the Park have you visited</label><br>
+            <input name="Lodge" type="checkbox" value="SP" />
+            <label for="SP">Kruger National Park</label><br>
+            <input name="Lodge" type="checkbox" value="PortPlaza" />
+            <label for="Lodge">Lion Gate Park</label><br>
+            <input name="Lodge" type="checkbox" value="Stop" />
+            <label for="Lodge">DEK Park</label><br>
+           <input name="submit" type="submit" value="Donate now" /> 
+           <input name="submit" type="submit" value="Clear form" /> 
+
+</form>
+        
+    </body>
+</html>
